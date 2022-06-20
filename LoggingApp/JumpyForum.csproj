@@ -1,0 +1,487 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{05B13D30-3A24-494C-8E4B-A99255EF32B9}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "JumpyForum"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "JumpyForum"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Copyright.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Delete.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Delete.aspx.cs"
+                    DependentUpon = "Delete.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Delete.aspx.resx"
+                    DependentUpon = "Delete.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EULA.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forum.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Forum.aspx.cs"
+                    DependentUpon = "Forum.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Forum.aspx.resx"
+                    DependentUpon = "Forum.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    SubType = "Component"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.cs"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "NewMessage.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "NewMessage.aspx.cs"
+                    DependentUpon = "NewMessage.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "NewMessage.aspx.resx"
+                    DependentUpon = "NewMessage.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Reply.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Reply.aspx.cs"
+                    DependentUpon = "Reply.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Reply.aspx.resx"
+                    DependentUpon = "Reply.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "bin\JumpyForum.dll"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "bin\JumpyForum.pdb"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "classes\clsDataAccess.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "classes\clsMail.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HtmlArea\editor.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\example.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\license.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\readme.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\images\ed_about.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\images\ed_align_center.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\images\ed_align_left.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\images\ed_align_right.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\images\ed_blank.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\images\ed_charmap.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\images\ed_color_bg.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\images\ed_color_fg.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\images\ed_copy.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\images\ed_custom.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\images\ed_cut.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\images\ed_delete.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\images\ed_format_bold.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\images\ed_format_italic.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\images\ed_format_strike.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\images\ed_format_sub.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\images\ed_format_sup.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\images\ed_format_underline.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\images\ed_help.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\images\ed_hr.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\images\ed_html.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\images\ed_image.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\images\ed_indent_less.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\images\ed_indent_more.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\images\ed_link.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\images\ed_list_bullet.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\images\ed_list_num.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\images\ed_redo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\images\ed_undo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\images\fullscreen_maximize.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\images\fullscreen_minimize.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\images\insert_table.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\popups\about.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\popups\blank.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\popups\custom2.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\popups\editor_help.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\popups\fullscreen.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\popups\insert_image.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\popups\insert_table.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlArea\popups\select_color.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\answer.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\blank.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\blind.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\cp_forum_comments.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\forum_newmsg.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\game.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\general.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\info.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\main.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\New.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\newcomment.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\news_blank.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\news_general.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\question.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\reply.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\screen.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\screen36.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\screenshot.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\t.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\up.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\userinfo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SQLScript\Create_CP_FORUM_Comments.sql"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "SQLScript\CreateSP_DeleteHierarchyForum.sql"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "SQLScript\CreateSP_ShowHierarchyForum.sql"
+                    BuildAction = "None"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+
